@@ -1,1 +1,2 @@
-# DIIT_Andorid_Application
+Institute Sample Andorid Application
+Just kept the base record file here...

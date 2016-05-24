@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.diit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+ <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="info.diit.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="info.diit.StudentLogin"
+            android:label="@string/title_activity_student_login" >
+        </activity>
+        <activity
+            android:name="info.diit.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name="info.diit.ProgramActivity"
+            android:label="@string/title_activity_program" >
+        </activity>
+        <activity
+            android:name="info.diit.AdmissionActivity"
+            android:label="@string/title_activity_admission" >
+        </activity>
+        <activity
+            android:name="info.diit.ClassScheduleActivity"
+            android:label="@string/title_activity_class_schedule" >
+        </activity>
+        <activity
+            android:name="info.diit.AdminActivity"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name="info.diit.LocationActivity"
+            android:label="@string/title_activity_location" >
+        </activity>
+        <activity
+            android:name="info.diit.StudentManagement"
+            android:label="@string/title_activity_student_management" >
+        </activity>
+        <activity
+            android:name="info.diit.IFY"
+            android:label="@string/ify_title" >
+        </activity>
+        <activity
+            android:name="info.diit.L5DC"
+            android:label="@string/l5dc_title" >
+        </activity>
+        <activity
+            android:name="info.diit.L4DC"
+            android:label="@string/l4dc_title" >
+        </activity>
+        <activity
+            android:name="info.diit.PdfReader"
+            android:label="@string/title_activity_pdf_reader" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,134 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txtHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/header" />
+
+        <TextView
+            android:id="@+id/txtBanner"
+            android:layout_width="wrap_content"
+            android:layout_height="125dp"
+            android:layout_below="@id/txtHeader"
+            android:background="@drawable/banner" />
+
+        <Button
+            android:id="@+id/btnAbout"
+            android:layout_width="134dp"
+            android:layout_height="98dp"
+            android:layout_below="@+id/txtBanner"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_about"
+            android:onClick="About" />
+
+        <Button
+            android:id="@+id/btnProgram"
+            android:layout_width="134dp"
+            android:layout_height="98dp"
+            android:layout_below="@id/txtBanner"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@+id/btnAbout"
+            android:background="@drawable/button_program"
+            android:onClick="Program" />
+
+        <Button
+            android:id="@+id/btnAdmission"
+            android:layout_width="134dp"
+            android:layout_height="98dp"
+            android:layout_below="@id/btnAbout"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_admission"
+            android:onClick="Admission" />
+
+        <Button
+            android:id="@+id/btnClass"
+            android:layout_width="134dp"
+            android:layout_height="98dp"
+            android:layout_below="@id/btnProgram"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/btnAbout"
+            android:background="@drawable/button_class"
+            android:onClick="ClassSchedule" />
+
+        <Button
+            android:id="@+id/btnStudent"
+            android:layout_width="134dp"
+            android:layout_height="98dp"
+            android:layout_below="@id/btnAdmission"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_student"
+            android:onClick="Student" />
+
+        <Button
+            android:id="@+id/btnStaff"
+            android:layout_width="134dp"
+            android:layout_height="98dp"
+            android:layout_below="@id/btnClass"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/btnAdmission"
+            android:background="@drawable/button_staff"
+            android:onClick="Admin" />
+
+        <Button
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/btnStudent"
+            android:background="@drawable/footer" />
+
+        <Button
+            android:id="@+id/btnContact"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/footer"
+            android:layout_alignBottom="@+id/footer"
+            android:layout_alignRight="@+id/btnClass"
+            android:layout_margin="10dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/btn_contact"
+            android:onClick="Contact" />
+
+        <Button
+            android:id="@+id/btnEvent"
+            android:layout_width="45dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/footer"
+            android:layout_alignBottom="@+id/footer"
+            android:layout_alignLeft="@+id/btnClass"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_event"
+            android:onClick="Event" />
+
+        <Button
+            android:id="@+id/btnLocation"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/footer"
+            android:layout_alignBottom="@+id/footer"
+            android:layout_alignRight="@+id/btnAdmission"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_location"
+            android:onClick="Location" />
+
+        <Button
+            android:id="@+id/btnWebsite"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/footer"
+            android:layout_alignBottom="@+id/footer"
+            android:layout_alignLeft="@+id/btnAdmission"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_websites"
+            android:onClick="Website" />
+    </RelativeLayout>
+
+</ScrollView>

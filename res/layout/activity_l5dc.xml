@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtIFY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/l5dc_title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnDDD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="DDD"
+        android:text="@string/ddd_title" />
+
+    <Button
+        android:id="@+id/btnADI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ADI"
+        android:text="@string/adi_title" />
+
+    <Button
+        android:id="@+id/btnNSC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="NSC"
+        android:text="@string/nsc_title" />
+    
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Logout"
+        android:text="@string/logout_title" />
+
+</LinearLayout>

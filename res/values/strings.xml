@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DIIT</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_student_login">StudentLogin</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_program">ProgramActivity</string>
+    <string name="title_activity_admission">AdmissionActivity</string>
+    <string name="title_activity_class_schedule">ClassScheduleActivity</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="about_diit">::: ABOUT Daffodil Institute of IT (DIIT) ::: 
+        \n\nDaffodil Institute of IT is the IT Education and Training Institute in Bangladesh. DIIT is the base institute of Daffodil Group.
+        \n\nDaffodil Institute of IT is the IT Education and Training Institute in Bangladesh. DIIT is the base institute of Daffodil Group.
+        \n\nDaffodil Institute of IT is the IT Education and Training Institute in Bangladesh. DIIT is the base institute of Daffodil Group.
+        \n\nDaffodil Institute of IT is the IT Education and Training Institute in Bangladesh. DIIT is the base institute of Daffodil Group.</string>
+    <string name="admission">::: Adminssion Goging On - January 2016 :::
+        \n\nName: International Fundation Year (IFY) \nPassing Year: One Year (IFY) \nCourse Fee: 6000/- Monthly + 270 Pound Registraion + exam fee 18000/- \nTotal: 120,000/- taka.
+        \n\nName: International Fundation Year (IFY) \nPassing Year: One Year (IFY) \nCourse Fee: 6000/- Monthly + 270 Pound Registraion + exam fee 18000/- \nTotal: 120,000/- taka.
+        \n\nName: International Fundation Year (IFY) \nPassing Year: One Year (IFY) \nCourse Fee: 6000/- Monthly + 270 Pound Registraion + exam fee 18000/- \nTotal: 120,000/- taka.
+        \n\nName: International Fundation Year (IFY) \nPassing Year: One Year (IFY) \nCourse Fee: 6000/- Monthly + 270 Pound Registraion + exam fee 18000/- \nTotal: 120,000/- taka.
+         \n\nName: International Fundation Year (IFY) \nPassing Year: One Year (IFY) \nCourse Fee: 6000/- Monthly + 270 Pound Registraion + exam fee 18000/- \nTotal: 120,000/- taka.</string>
+    <string name="classSchedule">::: Today\'s Class Schedule :::
+        \n\nSubject: Computer Project \nTime:10:00AM-12:00PM \nVenue:LAB06
+		\n\nSubject: Computer Project \nTime:10:00AM-12:00PM \nVenue:LAB06
+		\n\nSubject: Computer Project \nTime:10:00AM-12:00PM \nVenue:LAB06
+		\n\nSubject: Computer Project \nTime:10:00AM-12:00PM \nVenue:LAB06</string>
+    <string name="diit_program">::: DIIT Program Details :::
+		\n\nCourse:International Fundation Year(IFY) \nSession:January 2016 \nCourse Fee:6000/- (Monthly) \nExam Fee(6000) \nRegistration Fee: 270(Pound).
+		\n\nCourse:Level 4 Deploma in Computing(L4DC) \nSession:January 2016 \nCourse Fee:6000/- (Monthly) \nExam Fee(6000) \nRegistration Fee: 270(Pound).
+		\n\nCourse:Level 5 Deploma in Computing(L5DC) \nSession:January 2016 \nCourse Fee:6000/- (Monthly) \nExam Fee(6000) \nRegistration Fee: 270(Pound).
+		\n\nCourse:Business Information Technology(BIT) \nSession:January 2016 \nCourse Fee:6000/- (Monthly) \nExam Fee(6000) \nRegistration Fee: 270(Pound).</string>
+    <!-- Admin Panel -->
+    <string name="admin_user_name">Enter Admin User Name</string>
+    <string name="admin_password">Enter Admin Password</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="title_activity_student_management">StudentManagement</string>
+
+    <!-- IFY -->
+    <string name="ify_title">Welcome to International Fundation Year</string>
+    <string name="aels_title">Advanced English Language Skills</string>
+    <string name="ip_title">Introduction to Programming</string>
+    <string name="fm_title">Foundation Mathematics</string>
+    <!-- L4DC -->
+    <string name="l4dc_title">Welcome to Level 4 Diploma in Computing(L4DC)</string>
+    <string name="ddw_title">Designing and Developing a Website</string>
+    <string name="sdt_title">Software Development Techniques</string>
+    <string name="osd_title">Office Solutions Development</string>
+    <!-- L5DC -->
+    <string name="l5dc_title">Welcome to Level 5 Diploma in Computing(L5DC)</string>
+    <string name="ddd_title">Database Design and Development</string>
+    <string name="adi_title">Analysis, Design and Implementation</string>
+    <string name="nsc_title">Network Security and Cryptography</string>
+
+    <!-- Student Activity -->
+    <string name="save_title">Save</string>
+    <string name="view_title">View</string>
+    <string name="search_title">Search</string>
+    <string name="edit_title">Update</string>
+    <string name="delete_title">Delete</string>
+    <string name="newsevent_title">News and Events</string>
+    <string name="hint_name">Name:Student Name</string>
+    <string name="hint_id">Name:NCC ID</string>
+    <string name="hint_pass">Name:NCC Password</string>
+    <string name="logout_title">Log Out</string>
+    <string name="title_activity_pdf_reader">PdfReader</string>
+
+</resources>

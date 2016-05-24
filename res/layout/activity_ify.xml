@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtIFY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/ify_title"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/btnAELS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="AELS"
+        android:text="@string/aels_title" />
+
+    <Button
+        android:id="@+id/btnIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="IP"
+        android:text="@string/ip_title" />
+
+    <Button
+        android:id="@+id/btnFM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="FM"
+        android:text="@string/fm_title" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Logout"
+        android:text="@string/logout_title" />
+
+</LinearLayout>

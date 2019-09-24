@@ -16,7 +16,7 @@ DIIT Campus Android App is the subsystem which is developed for the NCC Educatio
 - [The Advantages of System](#The-Advantages-of-System)
 - [The Limitations of System](#The-Limitations-of-System)
 - [The System Features List](#system-features-list)
-- [Entity Relationship Diagram (ERD)](#Entity-Relationship-Diagram)
+- [The System Analysis and Specification)](T#he-System-Analysis-and-Specification)
 - [Technologies and Libraries](#technologies-and-libraries)
 - [Further Development](#further-development)
 - [How to run the System](#how-to-run-the-system)
@@ -27,11 +27,16 @@ DIIT Campus Android App is the subsystem which is developed for the NCC Educatio
 
 ## Overview
 
-This is identified that the project developed as calling name DIITCampusApp. The system handles any NCC students for read and manage their previous assignment without bring their hard copy.
+This is identified that the project developed as calling name DIITCampusApp. The system handles any NCC students for read and manage their previous assignment without bring their hard copy. The main aim of the project is to provide utility to maintain student activities and institute service. This project is developed for my institute and it’s a pioneer IT education and IT training institute in Bangladesh. This application helps to maintain current student activities, student admission, and program and course details information with institute other service. They can easily check institute update notices remotely. It also helps new student and their parents to take institute information.
 
 ## Problem Domain Area
 
 - Students cann't want to bring their books on the campus but they must bring their phone.
+- DIIT Institute have some problems with their current system, there have no students accessibility of their websites. 
+- Student and Teacher schedule is not very easiest way in these situations. 
+- New student and current student can't take information into the of-line version. 
+- The website is the modern, so we need to think how to manage current institute full work. 
+- Only website is not good feedback for IT Institute.
 
 
 ## The Advantages of System
@@ -53,9 +58,32 @@ This is identified that the project developed as calling name DIITCampusApp. The
 - login with NCC ID and generated password
 - Read the whole class books & Assingment.
 
-## Entity-Relationship-Diagram
+## The System Analysis and Specification
 
-![arc](diitapp_erd_diagram.jpg?raw=true 'ERD_Diagram')
+## Use Case Diagram
+![arc](use_case_diagram.jpg?raw=true 'DIITApps Use Case Diagram ')
+
+## System Architecture
+![arc](system_architecture_diagram.jpg?raw=true 'DIITApps System Architecture Diagram ')
+
+## System Initial Class Diagram
+![arc](initial_class_diagram.jpg?raw=true 'DIITApps Initial Class Diagram ')
+
+## System High level Class Diagram
+![arc](high_level_class_diagram.jpg?raw=true 'DIITApps High level Diagram ')
+
+## System Sequence Class Diagram
+![arc](sequence_diagram.jpg?raw=true 'DIITApps Sequence Class Diagram ')
+
+## System Normalized Table Structure
+![arc](data_model.jpg?raw=true 'DIITApps Data Model ')
+
+## System Entity Relationship Diagram
+![arc](erd_diagram.jpg?raw=true 'DIITApps ERD Diagram ')
+
+## System Unit Testing
+![arc](unit_testing.jpg?raw=true 'DIITApps ERD Diagram ')
+
 
 ## Technologies and libraries
 

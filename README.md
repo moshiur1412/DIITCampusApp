@@ -5,7 +5,7 @@ service. This project is developed for my institute and it’s a pioneer IT educ
 
 **Version**: 1.0 Release of the DIIT Campus Android App.
 
-- Screenshort of the android application looks like:
+- Screenshot of the android application looks like:
   ![arc](final_interface.jpg?raw=true 'DIITCampusApp')
 
 ---
@@ -14,10 +14,10 @@ service. This project is developed for my institute and it’s a pioneer IT educ
 
 - [Overview](#overview)
 - [Problem Domain Area](#problem-Domain-Area)
-- [The Advantages of System](#The-Advantages-of-System)
-- [The Limitations of System](#The-Limitations-of-System)
+- [The Advantages of Information Systems](#The-Advantages-of-Information-Systems)
+- [The Limitations of Information Systems](#The-Limitations-of-Information-Systems)
+- [Requirements Analysis and Specification](#Requirements-Analysis-and-Specification)
 - [The System Features List](#system-features-list)
-- [The System Analysis and Specification](T#he-System-Analysis-and-Specification)
 - [Technologies and Libraries](#technologies-and-libraries)
 - [Further Development](#further-development)
 - [How to run the System](#how-to-run-the-system)
@@ -39,7 +39,7 @@ This is identified that the project developed as calling name DIITCampusApp. The
 - The website is modern, so we need to think about how to manage current institute full work.
 - The only website is not good feedback for IT Institute.
 
-## The Advantages of System
+## The Advantages of Information Systems
 
 - The application is fully responsive.
 - Authenticated by the security route such as campus own user_id and generated password.
@@ -47,10 +47,44 @@ This is identified that the project developed as calling name DIITCampusApp. The
 - Only NCC student can access the whole system.
 - Custom error messaging with custom error pages.
 
-## The Limitations of System
+## The Limitations of Information Systems
 
 - The system is not used highly graphics and best UX design.
 - Any information can't modify within the single click.
+
+## Requirements Analysis and Specification
+
+### Use Case Diagram
+
+![arc](diagrams/use_case_diagram.jpg?raw=true 'DIITApps Use Case Diagram ')
+
+### System Architecture
+
+![arc](diagrams/system_architecture_diagram.jpg?raw=true 'DIITApps System Architecture Diagram ')
+
+### Initial Class Diagram
+
+![arc](diagrams/initial_class_diagram.jpg?raw=true 'DIITApps Initial Class Diagram ')
+
+### High level Class Diagram
+
+![arc](diagrams/high_level_class_diagram.jpg?raw=true 'DIITApps High level Diagram ')
+
+### Sequence Class Diagram
+
+![arc](diagrams/sequence_diagram.jpg?raw=true 'DIITApps Sequence Class Diagram ')
+
+### Normalized Table Structure
+
+![arc](diagrams/data_model.jpg?raw=true 'DIITApps Data Model ')
+
+### Entity Relationship Diagram
+
+![arc](diagrams/erd_diagram.jpg?raw=true 'DIITApps ERD Diagram ')
+
+### System Unit Testing
+
+![arc](diagrams/unit_testing.jpg?raw=true 'DIITApps ERD Diagram ')
 
 ## The System Features List
 
@@ -60,44 +94,11 @@ This is identified that the project developed as calling name DIITCampusApp. The
 - Everyone can check institute location and student current time class schedule.
 - New student and the current student can take the information into the of-line version.
 
-## The System Analysis and Specification
-
-### Use Case Diagram
-
-![arc](use_case_diagram.jpg?raw=true 'DIITApps Use Case Diagram ')
-
-### System Architecture
-
-![arc](system_architecture_diagram.jpg?raw=true 'DIITApps System Architecture Diagram ')
-
-### Initial Class Diagram
-
-![arc](initial_class_diagram.jpg?raw=true 'DIITApps Initial Class Diagram ')
-
-### High level Class Diagram
-
-![arc](high_level_class_diagram.jpg?raw=true 'DIITApps High level Diagram ')
-
-### Sequence Class Diagram
-
-![arc](sequence_diagram.jpg?raw=true 'DIITApps Sequence Class Diagram ')
-
-### Normalized Table Structure
-
-![arc](data_model.jpg?raw=true 'DIITApps Data Model ')
-
-### Entity Relationship Diagram
-
-![arc](erd_diagram.jpg?raw=true 'DIITApps ERD Diagram ')
-
-### System Unit Testing
-
-![arc](unit_testing.jpg?raw=true 'DIITApps ERD Diagram ')
-
 ## Technologies and libraries
 
-- JAVA.
-- Android Studio.
+- JAVA, MVC, UX-Design, SQLite
+- Used Android Studio and SDK tools buindling first v-4.
+- SQLite Helper for database ORM modeling.
 
 ## Further Development
 

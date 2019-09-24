@@ -1,11 +1,12 @@
 # DIIT Campus Android App
 
-DIIT Campus Android App is the subsystem which is developed for the NCC Education students. 
+DIIT Campus Android App is the subsystem which is developed for the NCC Education students. The main aim of the project is to provide utility to maintain student activities and institute
+service. This project is developed for my institute and it’s a pioneer IT education and IT training institute in Bangladesh. This application helps to maintain current student activities, student admission, and program and course details information with institute another service. They can easily check institute update notices remotely. It also helps new student and their parents to take institute information.
 
 **Version**: 1.0 Release of the DIIT Campus Android App.
 
 - Screenshort of the android application looks like:
-![arc](final_interface.jpg?raw=true 'DIITCampusApp')
+  ![arc](final_interface.jpg?raw=true 'DIITCampusApp')
 
 ---
 
@@ -16,7 +17,7 @@ DIIT Campus Android App is the subsystem which is developed for the NCC Educatio
 - [The Advantages of System](#The-Advantages-of-System)
 - [The Limitations of System](#The-Limitations-of-System)
 - [The System Features List](#system-features-list)
-- [The System Analysis and Specification)](T#he-System-Analysis-and-Specification)
+- [The System Analysis and Specification](T#he-System-Analysis-and-Specification)
 - [Technologies and Libraries](#technologies-and-libraries)
 - [Further Development](#further-development)
 - [How to run the System](#how-to-run-the-system)
@@ -27,63 +28,71 @@ DIIT Campus Android App is the subsystem which is developed for the NCC Educatio
 
 ## Overview
 
-This is identified that the project developed as calling name DIITCampusApp. The system handles any NCC students for read and manage their previous assignment without bring their hard copy. The main aim of the project is to provide utility to maintain student activities and institute service. This project is developed for my institute and it’s a pioneer IT education and IT training institute in Bangladesh. This application helps to maintain current student activities, student admission, and program and course details information with institute other service. They can easily check institute update notices remotely. It also helps new student and their parents to take institute information.
+This is identified that the project developed as calling name DIITCampusApp. The system handles any NCC students for reading and manages their previous assignment without bringing their hard copy. The main aim of the project is to provide utility to maintain student activities and institute service. This project is developed for my institute and it’s a pioneer IT education and IT training institute in Bangladesh. This application helps to maintain current student activities, student admission, and program and course details information with institute another service. They can easily check institute update notices remotely. It also helps new student and their parents to take institute information.
 
 ## Problem Domain Area
 
-- Students cann't want to bring their books on the campus but they must bring their phone.
-- DIIT Institute have some problems with their current system, there have no students accessibility of their websites. 
-- Student and Teacher schedule is not very easiest way in these situations. 
-- New student and current student can't take information into the of-line version. 
-- The website is the modern, so we need to think how to manage current institute full work. 
-- Only website is not good feedback for IT Institute.
-
+- Students can't want to bring their books on the campus but they must bring their phone.
+- DIIT Institute has some problems with their current system, there has no students accessibility of their websites.
+- Student and Teacher schedule is not a very easiest way in these situations.
+- New student and the current student can't take the information into the of-line version.
+- The website is modern, so we need to think about how to manage current institute full work.
+- The only website is not good feedback for IT Institute.
 
 ## The Advantages of System
 
 - The application is fully responsive.
-- Authenticated by the security route such as web, active and current users based.
-- validation and verification with relevant error and success message.
+- Authenticated by the security route such as campus own user_id and generated password.
+- Validation and verification with relevant error and success message.
 - Only NCC student can access the whole system.
 - Custom error messaging with custom error pages.
 
 ## The Limitations of System
 
 - The system is not used highly graphics and best UX design.
-- Any information can't modify within the single click..
-- The system didn't config any mailing system for notifications.
+- Any information can't modify within the single click.
 
 ## The System Features List
 
-- login with NCC ID and generated password
-- Read the whole class books & Assingment.
+- Admin can create the students name NCC ID and NCC Password with update, delete and search from the database.
+- Only student can access the system class module slide with their NCC ID and NCC Password.
+- Student can check their daily routine, exam date, venue and their institute event details into these apps.
+- Everyone can check institute location and student current time class schedule.
+- New student and the current student can take the information into the of-line version.
 
 ## The System Analysis and Specification
 
-## Use Case Diagram
+### Use Case Diagram
+
 ![arc](use_case_diagram.jpg?raw=true 'DIITApps Use Case Diagram ')
 
-## System Architecture
+### System Architecture
+
 ![arc](system_architecture_diagram.jpg?raw=true 'DIITApps System Architecture Diagram ')
 
-## System Initial Class Diagram
+### Initial Class Diagram
+
 ![arc](initial_class_diagram.jpg?raw=true 'DIITApps Initial Class Diagram ')
 
-## System High level Class Diagram
+### High level Class Diagram
+
 ![arc](high_level_class_diagram.jpg?raw=true 'DIITApps High level Diagram ')
 
-## System Sequence Class Diagram
+### Sequence Class Diagram
+
 ![arc](sequence_diagram.jpg?raw=true 'DIITApps Sequence Class Diagram ')
 
-## System Normalized Table Structure
+### Normalized Table Structure
+
 ![arc](data_model.jpg?raw=true 'DIITApps Data Model ')
 
-## System Entity Relationship Diagram
+### Entity Relationship Diagram
+
 ![arc](erd_diagram.jpg?raw=true 'DIITApps ERD Diagram ')
 
-## System Unit Testing
-![arc](unit_testing.jpg?raw=true 'DIITApps ERD Diagram ')
+### System Unit Testing
 
+![arc](unit_testing.jpg?raw=true 'DIITApps ERD Diagram ')
 
 ## Technologies and libraries
 
@@ -97,27 +106,27 @@ This is identified that the project developed as calling name DIITCampusApp. The
 
 ## How to run the System
 
-### Run on the development environment
-
-- Open terminal window with your dev area
-- Then run this below comments
-
 ```sh
 $ git clone https://github.com/vorsurm/DIITCampusApp.git
 
 $ cd DIITCampusApp
-$ composer install
 $ create an Android Virtual Device (AVD)
 $ run Android Virtual Device (AVD)
+$ you can also made your own apk file from your IDE.
 
 ```
----
 
+---
 
 ## Summary
 
-DIITCampusApp is successfully developed and implemented now as a first version 1.0. After the hardworking and self-studying period, I would like to say, I learn very much from that project which was a totally new concept on the first adriod apps. Therefore, It'a was very durable and helpful for me in every stage as a programmer, tester and the scrum master.
+DIITCampusApp is successfully developed and implemented now as a first version 1.0. After the hardworking and self-studying period, I would like to say, The DIIT Institute Android Application has to successfully implement and the system is work properly. The system have been able to provide a Google apps store which will be live and running for every users
+device and they can found this application easily. This system has been successful in our attempt to take care of the needs of both the students as well as the administrator. Finally, it hopes that this will go a long way in popularizing the organization and making its work of enrollment, keeping track of Artist’s Arts, problem-solving, etc much more efficient.
 
 ## References
 
-- https://developer.android.com/
+- https://developer.android.com/jetpack/docs/guide
+- https://android.jlelse.eu/architecture-patterns-in-android-abf99f2b6f70
+- https://www.androiddesignpatterns.com/
+- https://github.com/futurice/android-best-practices
+- https://medium.com/mindorks/best-coding-practices-tips-and-more-for-android-4ec03c7eeb2c
